@@ -4,6 +4,6 @@ export interface IMenuItem {
   price: number;
 }
 
-export interface OrdenItem extends IMenuItem {
+export interface IOrdenItem extends IMenuItem {
   quantity: number;
 }
